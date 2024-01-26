@@ -1,0 +1,61 @@
+
+body{
+background-color: gray;
+
+
+
+}
+
+
+.name{
+color: brown;
+
+}
+
+.name > span{
+
+color: rgb(179, 224, 179);
+
+font-style: italic;
+
+}
+
+.sex {
+color: blue;
+
+}
+
+.sex > span {
+
+color: brown;
+
+font-style: oblique;
+
+}
+
+.course{
+color: rgb(233, 233, 172);
+
+}
+
+.course > span{
+    color: rgb(224, 131, 131);
+    font-style: italic;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px auto;
+}
+
+.name, .sex, .course {
+    text-align: center;
+}
+
+@media only screen and (min-width: 600px) {
+
+    .name, .sex, .course {
+        text-align: left;
+    }
+}
